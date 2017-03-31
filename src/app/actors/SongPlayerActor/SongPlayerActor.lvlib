@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Embed Actor Core In Subpanel Msg.lvclass" Type="LVClass" URL="../SongPlayerActor Messages/Embed Actor Core In Subpanel Msg/Embed Actor Core In Subpanel Msg.lvclass"/>
+		<Item Name="Play Song Msg.lvclass" Type="LVClass" URL="../SongPlayerActor Messages/Play Song Msg/Play Song Msg.lvclass"/>
+	</Item>
 	<Item Name="SongPlayerActor.lvclass" Type="LVClass" URL="../SongPlayerActor/SongPlayerActor.lvclass"/>
 </Library>
